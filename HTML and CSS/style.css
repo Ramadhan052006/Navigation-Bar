@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+.navbar {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.li-navbar {
+    margin: 5px;
+    padding-right:10px ;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    color: white;
+
+}
+
+.li-navbar:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.li-login {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: aqua;
+    list-style-type: none;
+}
